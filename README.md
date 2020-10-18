@@ -59,18 +59,31 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Lem
 
 ## :computer: Execução da aplicação
 
+Inicialmente, clone este repositório executando:
+
+    git clone https://github.com/VitoriaCarvalho/NLW-3-Happy.git
+    
+Para executar a aplicação, é necessário ter o `npm` ou o `yarn` instalado.
 
 ### Para executar o backend:
 
+- Entre na pasta raíz do projeto e navegue para o diretório do servidor usando `cd backend`;
+- Instale as dependências usando `npm install` ou `yarn install`;
+- Realize as migrações do banco de dados com o comando `yarn typeorm migration:run`;
+- Execute o servidor usando `yarn dev`.
 
 ### Para executar o frontend:
 
+- Entre na pasta raíz do projeto e navegue para o diretório do frontend usando `cd web`;
+- Instale as dependências usando `npm install` ou `yarn install`;
+- Você precisa de um token de autenticação da API do Mapbox. Acesse sua conta no site do [Mapbox](https://www.mapbox.com/) e crie um token para ser utilizado no projeto. Copie o token criado, crie um arquivo .env e cole seu token como valor da chave REACT_APP_MAPBOX_TOKEN dentro desse arquivo;
+- Execute o projeto usando `npm start` ou `yarn start`.
 
 ### Para executar o mobile:
 
 - Entre na pasta raíz do projeto e navegue para o diretório da aplicação mobile usando `cd mobile`;
-- Instale as dependências usando `npm install`;
-- Execute o expo usando `expo start`;
+- Instale as dependências usando `npm install` ou `yarn install`;
+- Execute o expo usando `yarn start`;
 - Você pode executar o app em um emulador ou em um dispositivo físico:
   - No caso do emulador, inicie o emulador desejado (Android ou iOS), depois clique em `Run on Android emulator` ou `Run on iOS simulator`, dependendo da opção desejada;
   - No caso do dispositivo físico, instale o app Expo através da loja de aplicativos, e escaneie o QR code.
