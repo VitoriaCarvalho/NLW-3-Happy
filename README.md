@@ -1,5 +1,4 @@
 ---
-
 <h1 align="center">Happy :)</h1>
 
 ---
@@ -89,7 +88,7 @@ Nos links abaixo você encontra o layout do projeto web e também do mobile. Lem
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/VitoriaCarvalho/VisaoComputacional/blob/master/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/VitoriaCarvalho/NLW-3-Happy/blob/master/LICENSE) para mais detalhes.
 
 ---
 
